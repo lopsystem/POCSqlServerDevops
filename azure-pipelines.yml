@@ -4,7 +4,7 @@
     gitHubConnection: 'https://github.com/lopsystem/POCSqlServerDevops'
     repositoryName: '$(Build.Repository.- task: GitHubRelease@1
   inputs:
-    repositoryName: '$(Build.Repository.Name)'
+    repositoryName: '$(POCSqlServerDevops)'
     action: 'create'
     target: '$(Build.SourceVersion)'
     tagSource: 'gitTag'
